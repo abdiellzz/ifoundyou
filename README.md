@@ -50,6 +50,10 @@ Rastrea una palabra o bandera en cualquier archivo, con distintas codificaciones
 
 <img src="docs/oculto.png" alt="Pestaña de búsqueda de contenido oculto" width="900">
 
+**Ejemplo: recuperando una bandera CIBERISTMO.** Con el reto "El secreto del vuelo 404", la app prueba 320 combinaciones de planos de bits y recupera la bandera oculta en la foto, explicando cómo la encontró.
+
+<img src="docs/flag.png" alt="Bandera CIBERISTMO recuperada con esteganografía LSB" width="900">
+
 ### Veredicto y pasos — Informe
 Un veredicto claro (seguro, sospechoso, peligroso) con puntuaciones y qué hacer a continuación.
 
