@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🎯 FoundYou · *Te encontré*
+# FoundYou · *Te encontré*
 
 **No es un visor de archivos: es un resolutor de casos.**
 Recupera banderas escondidas en imágenes, desenmascara ejecutables camuflados y descubre lo que un documento cuenta de ti.
@@ -16,7 +16,7 @@ Recupera banderas escondidas en imágenes, desenmascara ejecutables camuflados y
 
 ---
 
-## ✨ Qué hace
+## Qué hace
 
 Todo el análisis ocurre **en tu navegador**. Los archivos nunca se suben a ningún servidor. Admite varios archivos a la vez, de hasta 150 MB cada uno.
 
@@ -24,47 +24,47 @@ La pantalla inicial propone cuatro casos de uso:
 
 | Caso | Para qué sirve |
 |---|---|
-| 🏁 **Reto CTF / Esteganografía** | Recupera una bandera `CIBERISTMO{...}` oculta en una foto probando 320 combinaciones de planos de bits. |
-| 🔎 **Busco una palabra escondida** | En TXT, PDF, DOCX, ZIP, EXE, PNG… encuentra una palabra en texto invisible, XOR, ROT, base64 y más. |
-| ⚠️ **¿Es un PDF o un ejecutable?** | Compara la extensión con el contenido real, busca polizones, macros, hashes y datos añadidos al final. |
-| 👁️ **¿Qué filtra este archivo de mí?** | Muestra autor, empresa, GPS, revisión de cambios, hojas ocultas y software usado. |
+| **Reto CTF / Esteganografía** | Recupera una bandera `CIBERISTMO{...}` oculta en una foto probando 320 combinaciones de planos de bits. |
+| **Busco una palabra escondida** | En TXT, PDF, DOCX, ZIP, EXE, PNG… encuentra una palabra en texto invisible, XOR, ROT, base64 y más. |
+| **¿Es un PDF o un ejecutable?** | Compara la extensión con el contenido real, busca polizones, macros, hashes y datos añadidos al final. |
+| **¿Qué filtra este archivo de mí?** | Muestra autor, empresa, GPS, revisión de cambios, hojas ocultas y software usado. |
 
 ---
 
-## 🖼️ Un recorrido por la app
+## Un recorrido por la app
 
 Cada archivo se analiza en cuatro pestañas.
 
-### 👁️ ¿Qué filtra? — Metadatos y privacidad
+### ¿Qué filtra? — Metadatos y privacidad
 Autor, equipo, ubicación, software y ediciones. Si hay coordenadas GPS, las muestra, y el mapa solo se carga si lo pides, para no filtrar tu consulta.
 
 <img src="docs/metadatos.png" alt="Pestaña de metadatos con geolocalización" width="900">
 
-### ⚠️ ¿Archivo falso? — Forense
+### ¿Archivo falso? — Forense
 Firmas de archivo, camuflaje de extensión, polizones, entropía, visor hexadecimal y strings.
 
 <img src="docs/forense.png" alt="Pestaña forense" width="900">
 
-### 🔎 Buscar lo oculto — Palabras y banderas
+### Buscar lo oculto — Palabras y banderas
 Rastrea una palabra o bandera en cualquier archivo, con distintas codificaciones, y laboratorio de imagen para esteganografía.
 
 <img src="docs/oculto.png" alt="Pestaña de búsqueda de contenido oculto" width="900">
 
-### ✅ Veredicto y pasos — Informe
+### Veredicto y pasos — Informe
 Un veredicto claro (seguro, sospechoso, peligroso) con puntuaciones y qué hacer a continuación.
 
 <img src="docs/informe.png" alt="Pestaña de informe y veredicto" width="900">
 
 ---
 
-## 🚀 Cómo usarla
+## Cómo usarla
 
 1. Arrastra uno o varios archivos al recuadro, o haz clic para elegirlos.
 2. Selecciona un archivo en la barra lateral.
 3. Recorre las cuatro pestañas.
 4. ¿Quieres probarla sin archivos? Usa los botones de demo de la pantalla inicial: *Resolver el vuelo 404*, *Probar con palabra oculta*, *Probar con un señuelo* o *Ver archivo de ejemplo*.
 
-## 🛠️ Instalación
+## Instalación
 
 Requisitos: Node.js 18 o superior y npm.
 
@@ -84,11 +84,11 @@ npm run build     # genera dist/ (un único HTML con vite-plugin-singlefile)
 npm run preview
 ```
 
-## 🧱 Stack
+## Stack
 
 React 19 · TypeScript · Vite · Tailwind CSS 4 · [exifr](https://github.com/MikeKovarik/exifr) · JSZip · spark-md5 · lucide-react
 
-## 📁 Estructura
+## Estructura
 
 ```
 src/
@@ -97,6 +97,6 @@ src/
 docs/             Capturas del README
 ```
 
-## ⚖️ Uso responsable
+## Uso responsable
 
 Úsala solo con archivos propios o con autorización, para análisis forense, aprendizaje y CTFs.
